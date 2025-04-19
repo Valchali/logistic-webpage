@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: "rubik", sans-serif;
+    line-height: 1.5;
+}
+body{
+    width: 1440px;
+    margin: 0 auto !important;
+    padding-left: 360px !important;
+    padding-right: 360px !important;    
+
+}
+
+/* THE TRANSPORTERS PAGE */
+
+.page_title{
+    font-size: 14px;
+    color: #1C1F35;
+    padding: 4px 8px;
+    margin-top: 96px !important; 
+    width: fit-content;
+    height: fit-content;
+    background-color: rgba(232, 232, 232, 0.5);
+    border-left: 4px solid;
+    border-image: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6) 1;
+
+}
+.page_title_subtext{
+    font-size: 36px;
+    font-weight: 600;
+    color: #1C1F35;
+    margin-top: 16px;
+    text-align: center;
+}
+.team_image{
+    width: 364px;
+    height: 426px;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    display: block;
+}
+.team_name{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffff;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+.team_occupation{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "krub", sans-serif;
+    color: #fff;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_title_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.transport{
+    display: flex;
+    flex-direction: row;
+    gap: 56px ;
+    justify-content: center;
+    align-items: center;
+
+}
+.team_style{
+    width: 364px;
+    height: 112px;
+    background-color: #1C1F35;
+    margin-top: 0px;
+    padding-left: 36px;
+    padding-top: 42px;
+    margin-bottom: 100px;
+}
+.transport_space{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    align-items: center;
+}
+#social_media_1{  
+    position: absolute;
+    top: 428px;    
+    right: 0px;   
+    width: 152px;   
+    height: 60px;
+
+}
+#social_media_2{  
+    position: absolute;
+    top: 428px;    
+    right: 0px;   
+    width: 200px;   
+    height: 60px;
+}
+
+#social_media_3{  
+    position: absolute;
+    top: 428px;    
+    right: 0px;   
+    width: 104px;   
+    height: 60px;
+}
+
