@@ -1,22 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html{
+html, body {
     font-family: "rubik", sans-serif;
     line-height: 1.5;
-}
-body{
     width: 1920px;
-    margin: 0 auto !important;
-    padding-left: 360px !important;
-    padding-right: 360px !important;    
+    margin: 0 auto;
 
-}
+  }
+
 
 /* THE TRANSPORTERS PAGE */
 
@@ -70,6 +69,7 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
 .transport{
     display: flex;
@@ -119,3 +119,78 @@ body{
     height: 60px;
 }
 
+/* CONTACT PAGE */
+.contact_details{
+    font-family: "krub", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding-bottom: 28px;
+}
+.contact_text{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding-left: 16px;
+    color: #fff;
+}
+.contact_image{
+    width: 64px;
+    height: 64px;
+    
+}
+
+#tsection_2{
+    background-color: #091242;
+    display: flex;
+    gap: 88px;
+}
+#Contact{
+    background-color: rgba(232, 232, 232, 0.1);
+    color: #fff;
+}
+#contact_section{
+    padding-left: 360px;
+    padding-bottom: 144px;
+}
+#get_in_touch{
+    color: #fff;
+    text-align: left;
+}
+#contact_team{
+    width: 353px;
+    padding-bottom: 32px;
+}
+.input_field{
+    width: 365px;
+    height: 60px;
+    border: #fff solid 1px;
+    background-color: transparent;
+    padding: 20px 28px;
+    
+}
+.input_field::placeholder {
+    color: #fff;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "league spartan", sans-serif;
+}
+#form_box{
+    display: flex;
+    gap: 28px;
+    flex-wrap: wrap;
+    width: 758px;
+    padding-top: 144px;
+}
+#submit_button{
+    background-image: linear-gradient(to right, #FFB629, #FFDA56, #FFD7A6);
+    text-align: center;
+    padding: 20px 32px;
+    color: #23212A;
+    width: 194px;
+    height: 60px;
+    font-weight: 600;
+    font-family: "krub", sans-serif;
+}
