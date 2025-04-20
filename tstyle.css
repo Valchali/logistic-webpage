@@ -72,6 +72,9 @@ html, body {
     padding-bottom: 0px;
 
 }
+#blog_title_container{
+    padding-bottom: 100px;
+}
 .transport{
     display: flex;
     flex-direction: row;
