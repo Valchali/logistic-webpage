@@ -242,6 +242,8 @@ html, body {
 .blog_image{
     width: 453px;
     height: 308px;
+    position: relative;
+    display: inline-block;
 }
 .blog_date{
     display: flex;
@@ -352,3 +354,25 @@ html, body {
 #hover_button_container{
     padding-top: 40px;
 }
+.read_more_span {
+    position: absolute;
+    text-decoration: none;
+    padding: 100px 148px;
+    text-align: center;
+    background-color: rgba(28, 31, 53, 0.91);
+    color: #fff;
+    font-family: "krub", sans-serif;
+    font-weight: 600;
+    white-space: nowrap;
+    transition: opacity 0.5s ease, transform 0.5s ease;
+    right: 40px;
+    top: 44px;
+    opacity: 0;
+    transform: translateY(20px); /* start slightly lower */
+  }
+  
+  .blog_image:hover .read_more_span {
+    opacity: 1;
+    transform: translateY(0); /* move to correct position */
+  }
+  
