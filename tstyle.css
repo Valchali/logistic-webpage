@@ -41,8 +41,8 @@ html, body {
 .team_image{
     width: 364px;
     height: 426px;
-    margin-top: 40px;
-    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 0px;
     display: block;
 }
 .team_name{
@@ -265,12 +265,18 @@ html, body {
     font-family: "krub", sans-serif;
     font-weight: 500;
 }
+.blog_text{
+
+    border-left: 1px solid #D6D6D6;
+    padding-left: 28px;
+}
 
 .blog_text > h4{
     font-family: "rubik", sans-serif;
     font-size: 25px;
     font-weight: 400;
     width: 335px;
+
 }
 .blog_text > p{
     font-family: "krub", sans-serif;
@@ -303,4 +309,46 @@ html, body {
 }
 #blog_2{
     width: 348px;
+}
+#last_blog_content{
+    border-bottom: 1px solid #D6D6D6;
+    padding-bottom: 36px;
+}
+
+/* HOVER BUTTON */
+#hover_button{
+    position: relative;
+    background-color: #091242;
+    padding: 16px;
+    font-size: 18px;
+    cursor: pointer;
+    overflow: hidden;
+    color: #fff;
+    width: 196px;
+    height: 60px;
+
+}
+#hover_button_span{
+    position: absolute;
+    right: -4%;
+    bottom: -20%;
+    width: 40px;
+    height: 40px;
+    background-color: #1F2A69;
+    opacity: 50%;
+    border-radius: 100% 80% 0% 80%;
+    transition: all 1.0s ease;
+
+}
+#hover_button:hover #hover_button_span{
+    width: 140px;
+    height: 140px;
+    opacity: 50%;
+    right: 0%;
+    Bottom: 0%;
+    transition: all 3.0s ease;
+
+}
+#hover_button_container{
+    padding-top: 40px;
 }
