@@ -216,6 +216,7 @@ html, body {
     padding-left: 360px;
     padding-right: 360px;
     display: flex;
+    flex-direction: row;
     gap: 0px;
     padding-bottom: 144px;
 }
